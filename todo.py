@@ -34,4 +34,4 @@ if len(st.session_state.tasks) > 0:
 
     if st.button("Delete Task"):
         st.session_state.tasks.pop(task_num - 1)
-        st.success("Task deleted!")
+        st.success("Your Task deleted!")
